@@ -6,31 +6,38 @@
 3. Carry out the plan
 4. Look back and improve your solution 
 
+Desarrollar un programa en Go que genere un número aleatorio entre 1 y 100, y 
+permita al usuario adivinarlo en un máximo de 10 intentos. El programa debe 
+proporcionar pistas ("mayor" o "menor") después de cada intento fallido y 
+mostrar un mensaje de victoria o derrota al finalizar.
+
 ## 1. 📖 Entender el Enunciado
+
 - [ ] Identificar requisitos clave:
-    - Generar un número aleatorio entre 1 y 10.
-    - Permitir al usuario adivinar (con 3 intentos máx).
-    - Dar pistas ("mayor" o "menor").
-    - Mostrar mensajes de victoria/derrota.
+
+    1. Generar un numero aleatorio entre 1 y 100.
+    2. Permitir que al usuario adivinarlo maximo en 10 intentos.
+    3. Dar pistas mayor o menor despues de c/intento fallido.
+    4. Mostrar mensajes de victoria o derrota al finalizar juego.
 
 ## 2. 🧱 Diseñar la Estructura
 - [ ] Pseudocódigo mental:
-    - Entrada: Numeros ingresador por el usuario
+    - Entrada: Numeros ingresados por el usuario.
+    
+    - Salida: Mensajes de salida, victoria o derrota.
 
     - Proceso:
         1. Generar número aleatorio (1-10).
-        2. Para cada intento (3 máx):
+        2. Para cada intento (10 máx):
            a. Pedir input al usuario.
            b. Validar si es número.
            c. Comparar con el número aleatorio.
            d. Dar pista o terminar si acierta.
         3. Si no acierta, revelar el número.
 
-    - Salida: Mensajes de salida, victoria o derrota
-
 ## 3. 🧰 Elegir Herramientas
-- [ ] Paquetes necesarios:
-- [ ] Estructuras que usaré (if, for, funciones, etc):
+- [ ] Paquetes necesarios: "fmt", "math/rand"
+- [ ] Estructuras que usaré (if, for):
 
 ## 4. 🛠️ Implementar en Etapas
 
@@ -46,10 +53,10 @@
 - [ ] Indicaciones al usuario
 
 ### Checklist
-- [ ] Entendí el problema y sus restricciones.  
-- [ ] Escribí pseudocódigo/diagrama.  
-- [ ] Elegí herramientas (paquetes, estructuras).  
-- [ ] Implementé una versión mínima funcional.  
-- [ ] Añadí validaciones y manejo de errores.  
-- [ ] Optimicé y mejoré la UX.  
-- [ ] Revisé casos límite y refactoricé.  
+- [x] Entendí el problema y sus restricciones.  
+- [] Escribí pseudocódigo/diagrama.  
+- [] Elegí herramientas (paquetes, estructuras).  
+- [] Implementé una versión mínima funcional.  
+- [] Añadí validaciones y manejo de errores.  
+- [] Optimicé y mejoré la UX.  
+- [] Revisé casos límite y refactoricé.  
